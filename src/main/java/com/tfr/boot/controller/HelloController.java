@@ -21,7 +21,7 @@ public class HelloController {
     }
 
     @PostMapping
-    public void hah(String name){
+    public void hah(String name1){
         System.out.println("eklfhikewh");
     }
 }
