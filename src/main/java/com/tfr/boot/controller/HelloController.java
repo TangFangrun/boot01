@@ -1,6 +1,7 @@
 package com.tfr.boot.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -17,5 +18,10 @@ public class HelloController {
     @GetMapping("hello")
     public String hello() {
         return "hello world";
+    }
+
+    @PostMapping
+    public void hah(){
+        System.out.println("eklfhikewh");
     }
 }
